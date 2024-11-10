@@ -1,0 +1,19 @@
+{
+    "version": "0.18.0",
+    "description": "Databricks CLI",
+    "homepage": "https://github.com/databricks/cli",
+    "license": "Databricks License",
+    "url": "https://github.com/databricks/cli/releases/download/v0.233.0/databricks_cli_0.233.0_windows_amd64.zip",
+    "hash": "sha256:F20B5EB116667BE142B3FA45D67CCDD37318BF6468F18BE779EF1D7EC4B076E3",
+    "bin": "databricks.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/databricks/databricks-cli/releases/latest",
+        "regex": "tag_name\":\"v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/databricks/cli/releases/download/v0.233.0/databricks_cli_$version_windows_amd64.zip",
+        "hash": {
+            "url": "https://github.com/databricks/cli/releases/download/v0.233.0/databricks_cli_$version_windows_amd64.zip.sha256"
+        }
+    }
+}
