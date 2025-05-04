@@ -1,5 +1,3 @@
-# databricks-cli
-
 This repository contains the Scoop bucket for the Databricks CLI.
 
 ## Installation
