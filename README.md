@@ -4,11 +4,12 @@ This repository contains the Scoop bucket for the Databricks CLI.
 
 ## Installation
 
-To install the Databricks CLI using Scoop, first ensure you have Scoop installed. Then, add this bucket to your Scoop configuration and install the Databricks CLI:
+To install the Databricks CLI using Scoop, first ensure you have Scoop installed. Then, create the Databricks config file, add this bucket to your Scoop configuration, and install the Databricks CLI:
 
 ```sh
-scoop bucket add databricks-cli https://github.com/yourusername/databricks-cli-scoop-bucket
-scoop install databricks-cli
+touch .databrickscfg
+scoop bucket add databricks-cli https://github.com/scottcoggin/databricks-cli.git
+scoop install databricks
 ```
 
 ## Usage
