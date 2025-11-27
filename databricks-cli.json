@@ -7,8 +7,7 @@
     "hash": "sha256:9ff3f1c5eba76e550873fc541878beabb35f6a5288d84b2e828afc1e30102a2d",
     "bin": "databricks.exe",
     "checkver": {
-        "url": "https://api.github.com/repos/databricks/cli/releases/latest",
-        "regex": "tag_name\":\"v([\\d.]+)"
+        "github": "https://github.com/databricks/cli"
     },
     "autoupdate": {
         "url": "https://github.com/databricks/cli/releases/download/v$version/databricks_cli_$version_windows_amd64.zip",
