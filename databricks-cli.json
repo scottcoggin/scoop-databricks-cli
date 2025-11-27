@@ -12,8 +12,7 @@
     "autoupdate": {
         "url": "https://github.com/databricks/cli/releases/download/v$version/databricks_cli_$version_windows_amd64.zip",
         "hash": {
-            "url": "$baseurl/databricks_cli_$version_SHA256SUMS",
-            "find": "$sha256\\s+$basename"
+            "url": "$baseurl/databricks_cli_$version_SHA256SUMS"
         }
     }
 }
