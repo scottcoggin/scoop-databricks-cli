@@ -1,39 +1,18 @@
-## Scoop bucket for Databricks CLI
+# Scoop Databricks CLI (Deprecated)
 
-This repository contains the Scoop bucket for the Databricks CLI.
+> **This repository is deprecated.** The manifest has been contributed to the official [Scoop Extras bucket](https://github.com/ScoopInstaller/Extras).
 
 ## Installation
 
-To install the Databricks CLI using Scoop, first ensure you have Scoop installed. Then, create the Databricks config file, add this bucket to your Scoop configuration, and install the Databricks CLI:
+Install from the official Scoop Extras bucket:
 
 ```sh
-touch .databrickscfg
-scoop bucket add databricks-cli https://github.com/scottcoggin/databricks-cli.git
-scoop install databricks
+scoop bucket add extras
+scoop install databricks-cli
 ```
 
-## Usage
+## Links
 
-After installation, you can use the Databricks CLI by running:
-
-```sh
-databricks
-```
-
-For more information on how to use the Databricks CLI, refer to the [official documentation](https://github.com/databricks/cli).
-
-## Updating
-
-To update the Databricks CLI to the latest version, run:
-
-```sh
-scoop update databricks-cli
-```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [databricks-cli on Scoop](https://scoop.sh/#/apps?q=databricks-cli)
+- [Scoop Extras bucket](https://github.com/ScoopInstaller/Extras)
+- [Databricks CLI documentation](https://github.com/databricks/cli)
